@@ -11,8 +11,8 @@ A place to store, reference, and discover your ideas.
 - Add sources to your notes
 
 ## Chrome Extension 12 Second Demo
-<video src="https://www.thinkwong.com/wp-content/uploads/2022/03/fleeting-notes-demo.mp4" type="video/mp4"></video>
+<video src="https://www.thinkwong.com/wp-content/uploads/2022/03/fleeting-notes-demo.mp4" type="video/mp4" width="100%" height="100%" display="flex" controls></video>
 
-## Others
+## What now?
 - Support the development by [donating](https://ko-fi.com/fleetingnotes)
 - Read more about Fleeting Notes through these [blog posts](https://www.thinkwong.com/category/fleeting-notes/)

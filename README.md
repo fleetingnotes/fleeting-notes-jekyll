@@ -1,5 +1,5 @@
 # Fleeting Notes
-An extension of your brain to manage and discover ideas
+An extension for your brain to manage and discover ideas
 - Download the [chrome extension](https://chrome.google.com/webstore/detail/fleeting-notes/gcplhmogdjioeaenmehmapbdonklmdnc/)
 - Download the [firefox extension](https://addons.mozilla.org/en-CA/firefox/addon/fleeting-notes/)
 - Get Early Access to iOS / Android by [donating](https://ko-fi.com/fleetingnotes) $1
@@ -19,3 +19,13 @@ An extension of your brain to manage and discover ideas
 ## What now?
 - Support the development by [donating](https://ko-fi.com/fleetingnotes)
 - Read more about Fleeting Notes through these [blog posts](https://www.thinkwong.com/category/fleeting-notes/)
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C7BS7W5FJE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C7BS7W5FJE');
+</script>

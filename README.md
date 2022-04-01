@@ -1,8 +1,9 @@
 # Fleeting Notes
-A place to store, reference, and discover your ideas.
+An extension of your brain to manage and discover ideas
 - Download the [chrome extension](https://chrome.google.com/webstore/detail/fleeting-notes/gcplhmogdjioeaenmehmapbdonklmdnc/)
 - Download the [firefox extension](https://addons.mozilla.org/en-CA/firefox/addon/fleeting-notes/)
 - Get Early Access to iOS / Android by [donating](https://ko-fi.com/fleetingnotes) $1
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'M4M6BJXG9');kofiwidget2.draw();</script> 
 - Join the [discord channel](https://discord.gg/xrj6yuGNmx)
 
 ## Features

@@ -28,7 +28,14 @@ url: "https://fleetingnotes.app" # the base hostname & protocol for your site, e
 # your social media links etc
 #######################################################################
 
+title: Fleeting Notes
+tagline: An extension of your brain to manage and discover ideas
+description: Fleeting Notes provides a quick and easy platform to use a unique note organization method that functions in a similar vein to a brain—-through the connection of ideas. 
+logo: /assets/img/favicon.png
 heading: Fleeting Notes # Change this 
+author:
+  name: Matthew Wong
+  url: https://thinkwong.com
 copyright:  
   year: 2022
   msg: Fleeting Notes # This is a mandatory attribute for copyright to be displayed ; If deleting this, edit at footer layout.
@@ -86,6 +93,7 @@ encoding: utf-8
 # Build settings
 theme: null
 plugins:
+  - jekyll-seo-tag
   - jekyll-feed 
   - jekyll-sitemap 
   - jekyll-tidy

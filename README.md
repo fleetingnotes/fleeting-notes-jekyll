@@ -24,6 +24,14 @@ _If it's not working, edit this readme (add something and commit) to trigger sta
 - Step 3: You can start adding notes to this vault and add frontmatter to support. Read about YAML at `Welcome to the garden`.
 - Step 4: Once you have enough notes, got to the Github Desktop app, commit the changes to main, and push the changes to Github. Github will update the pages!
 
+## Run Webserver Locally
+1. Install [Jenkyll](https://jekyllrb.com/docs/installation/)
+2. Run commands
+```
+bundle install
+bundle exec jekyll serve --livereload
+```
+
 
 ## Credits & Thanks
 - [rgvr](https://github.com/rgvr), who created [Simply Jekyll theme](https://github.com/rgvr/simply-jekyll). This theme is a fork of Simply Jekyll and 90% code is by Raghu.

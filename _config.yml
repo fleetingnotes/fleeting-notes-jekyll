@@ -1,7 +1,4 @@
 name: Fleeting Notes
 title: null
 # Google Analytics
-output:
-  html_document:
-    includes:
-      in_header: analytics.html
+google_analytics: G-C7BS7W5FJE

@@ -19,13 +19,3 @@ An extension for your brain to manage and discover ideas
 ## What now?
 - Support the development by [donating](https://ko-fi.com/fleetingnotes)
 - Read more about Fleeting Notes through these [blog posts](https://www.thinkwong.com/category/fleeting-notes/)
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-C7BS7W5FJE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-C7BS7W5FJE');
-</script>

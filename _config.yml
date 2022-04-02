@@ -28,7 +28,7 @@ url: "https://fleetingnotes.app" # the base hostname & protocol for your site, e
 # your social media links etc
 #######################################################################
 
-heading: Matthew Wong # Change this 
+heading: Fleeting Notes # Change this 
 copyright:  
   year: 2022
   msg: Fleeting Notes # This is a mandatory attribute for copyright to be displayed ; If deleting this, edit at footer layout.

@@ -1,1 +1,4 @@
 .obsidian
+.DS_Store
+.jekyll-cache/
+_site/

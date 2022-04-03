@@ -4,7 +4,7 @@ title: clear and concise
 notetype: feed
 date: 2022-04-02
 ---
-
+This means to communicate as efficiently as possible without adding "extra fat"
 
 ---
 

@@ -4,7 +4,10 @@ title: make decisions based on data
 notetype: feed
 date: 2022-04-02
 ---
+We want to make [[data-driven decisions]] because otherwise we leave decisions based on luck  anecdotal evidence.
 
+Related:
+[[anectdotal evidence isn't reliable]]
 
 ---
 

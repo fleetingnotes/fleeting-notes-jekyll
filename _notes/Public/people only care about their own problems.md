@@ -4,7 +4,7 @@ title: people only care about their own problems
 notetype: feed
 date: 2022-04-02
 ---
-
+Because problems of other people don't help achieve their goals.
 
 ---
 

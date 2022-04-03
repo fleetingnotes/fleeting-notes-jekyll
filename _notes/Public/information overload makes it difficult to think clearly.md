@@ -4,7 +4,7 @@ title: information overload makes it difficult to think clearly
 notetype: feed
 date: 2022-03-28
 ---
-
+Our brains haven't evolved to handle so much information and consuming lots of information negatively impacts our thinking.
 
 ---
 

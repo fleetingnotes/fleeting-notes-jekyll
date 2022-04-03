@@ -1,4 +1,5 @@
 ---
+id: 75a4d880-ab25-11ec-8630-9f966381a325
 title: people save things because they're afraid of losing it
 notetype: feed
 date: 2022-03-23

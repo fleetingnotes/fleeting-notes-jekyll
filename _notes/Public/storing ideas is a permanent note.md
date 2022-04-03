@@ -1,4 +1,5 @@
 ---
+id: a7c75310-a918-11ec-b62e-11e50cb0c79b
 title: storing ideas is a permanent note
 notetype: feed
 date: 2022-03-21

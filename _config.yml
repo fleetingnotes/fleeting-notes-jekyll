@@ -113,7 +113,7 @@ disqus:
 markdown: kramdown
 
 kramdown:
-  input: GFM
+  input: markdown
   hard_wrap: false
   math_engine: katex
   smart_quotes: ["apos", "apos", "quot", "quot"]

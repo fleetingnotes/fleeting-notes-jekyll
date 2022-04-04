@@ -53,12 +53,13 @@
                 {%- assign sidenote = itemparts[0] | split:sidenote_delimiter -%}
 
                 {%- if external_link[1] == nil -%}
-                    {%- assign result_posts = site.posts | where: 'title',internal_link -%}  
-                    {%- assign result_posts = site.notes | where: 'title',internal_link -%}
+                    {%- assign post_path = '_posts/' | append: internal_link | append: '.md' -%}
+                    {%- assign result_posts = site.posts | where: 'path', post_path -%}  
+                    {%- assign result_notes = site.notes | where: 'title',internal_link -%}
                     {%- assign result_pages = site.pages | where: 'title',internal_link -%}
                     {%- assign internal_links = internal_links | append: link_joiner_delimiter | append: internal_link -%}
                     {%- assign internal_aliases = internal_aliases | append: link_joiner_delimiter | append: internal_alias -%}
-                    {%- assign internal_urls = internal_urls | append: link_joiner_delimiter | append: result_posts[0].url | append: result_pages[0].url -%}
+                    {%- assign internal_urls = internal_urls | append: link_joiner_delimiter | append: result_notes[0].url | append: result_pages[0].url | append: result_posts[0].url -%}
                 {%- else -%}
                     {%- assign external_links = external_links | append: link_joiner_delimiter | append: external_link[0] -%}
                     {%- assign external_urls = external_urls | append: link_joiner_delimiter | append: external_link[1] -%}
@@ -83,12 +84,15 @@
                 {%- assign link_text = '<a class="stale-link" href="' | append: 'javascript:void(0)' | append: '">' | append: alias | append: '</a>' -%}
             {%- else -%}
                 {%- assign post = site.notes | where: 'title',title -%}
+                {%- assign display_title = title -%}
                 {%- if post[0].title == nil -%}
-                    {%- assign post = site.posts | where: 'title',title -%}
+                    {%- assign post_path = '_posts/' | append: title | append: '.md' -%}
+                    {%- assign post = site.posts | where: 'path',post_path -%}
+                    {%- assign display_title = post[0].title -%}
                 {%- endif -%}
                 {%- assign excerpt = post[0].content | markdownify | strip_html | truncate: 200 | newline_to_br -%}
                 {%- if site.preferences.pagepreview.enabled -%}
-                    {%- assign link_text = '<span class="tooltip"><a href="' | append: url | append: '">' | append: alias | append: '</a><span class="right bottom"><span class="tooltip-title">' | append: title | append: '</span><br/><span class="tooltip-excerpt">' | append: excerpt | append: '</span><i></i></span></span>' -%}
+                    {%- assign link_text = '<span class="tooltip"><a href="' | append: url | append: '">' | append: alias | append: '</a><span class="right bottom"><span class="tooltip-title">' | append: display_title | append: '</span><br/><span class="tooltip-excerpt">' | append: excerpt | append: '</span><i></i></span></span>' -%}
                 {%- else -%}
                     {%- assign link_text = '<span><a href="' | append: url | append: '">' | append: alias | append: '</a></span>' -%}
                 {%- endif -%}

@@ -58,6 +58,12 @@ $ docker-compose up -d
 > The directories which will be frequently modified, are mapped as local volumes so that any changes made to those will be immediately picked up by the server and built. If you fancy changing content in other folders regularly, feel free to add them to the `volumes` section in `docker-compose.yml` before deploying.
 
 
+## I Added 
+- Alias links [[link is here|alias is here]]
+- Notes now populate posts as backlinks
+- We can now reference posts
+
+
 ## License
 
 The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).

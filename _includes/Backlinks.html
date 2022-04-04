@@ -62,7 +62,7 @@
 <div class="related {{display_class}}" id="jekyll-seamless-backlinks">
     <h5 class="block-title">Links to this note</h5>
     <div class="related-wrapper">
-        {%- for note in site.notes -%}
+        {%- for note in site.posts -%}
         {%- if note.url != page.url -%}
             {%- if note.content contains wiki_link_title -%}
             <div class="related-group"><a href="{{note.url}}">
@@ -72,7 +72,7 @@
             {%- endif -%}
         {%- endif -%}
         {%- endfor -%}
-        {%- for note in site.pages -%}
+        {%- for note in site.notes -%}
         {%- if note.url != page.url -%}
             {%- if note.content contains wiki_link_title -%}
             <div class="related-group"><a href="{{note.url}}">

@@ -76,7 +76,7 @@
         <div class="columns is-centered">
             <!--- CASE 1 : Homepage-->
 
-            {%- if page.permalink == "/" -%}
+            {%- if page.permalink == "/" or page.permalink == '/download' -%}
                     {%- if site.preferences.homepage.enabled -%}
                             <!--- Show Homepage -->
                             {%- include Homepage.html -%}

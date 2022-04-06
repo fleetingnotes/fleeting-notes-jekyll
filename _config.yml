@@ -7,8 +7,8 @@ exclude: ["_includes/notes_graph.json"]
 # Settings
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://fleetingnotes.app" # the base hostname & protocol for your site, e.g. http://example.com
-title: Fleeting Notes | Notes that extend your mind
-tagline: Create notes that extend your brain
+title: Fleeting Notes
+tagline: Notes that extend your brain
 description:  Fleeting Notes helps you create notes that functions in a similar vein to the brain—through the connection of ideas.
 logo: /assets/favicon.png
 heading: Fleeting Notes # Change this

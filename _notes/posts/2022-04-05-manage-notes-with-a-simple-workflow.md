@@ -1,5 +1,6 @@
 ---
 title: Confused On How To Manage Your Notes? Try This Simple Workflow.
+description: Oftentimes we find ourselves with folders with too many files or tags with too few members. The fault isn't in the person but in the note-taking system itself.
 ---
 If you ever took notes on an article, video, or podcast and had no idea do with it, you're in the right place. Many existing solutions suggest adding tags, and creating many layers of nested folders. But oftentimes we find ourselves with [[its not natural to organize things in groups|folders with too many files or tags with too few members]]. The fault isn't in the person but in the note-taking system itself.
 

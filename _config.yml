@@ -5,6 +5,7 @@ exclude: ["_includes/notes_graph.json"]
 # Pages deploys your repository (which is usually the repository name).
 
 # Settings
+google_analytics: G-C7BS7W5FJE 
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://fleetingnotes.app" # the base hostname & protocol for your site, e.g. http://example.com
 title: Fleeting Notes

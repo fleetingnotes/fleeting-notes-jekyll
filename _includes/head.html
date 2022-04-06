@@ -9,7 +9,7 @@
 
   <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
 
-  {% if site.google_analytics and jekyll.environment == 'production' %}
+  {% if jekyll.environment == 'production' %}
     {% include analytics.html %}
   {% endif %}
   {% seo %}  

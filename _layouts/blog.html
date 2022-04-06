@@ -1,0 +1,15 @@
+---
+layout: default
+---
+{% assign startsWith = '_notes/posts' %}
+{% for note in site.notes reversed%}
+    {% assign checkPath = note.path | slice:0,startsWith.size %}
+    {% if checkPath == startsWith %}
+        <h1><a href="{{note.url}}">{{note.title}}</a></h1>
+        <div style="max-width: 46em;">{{note.content | truncatewords: 50}}</div>
+        <time datetime="{{ note.date | date_to_xmlschema }}">
+            {{ note.date | date: "%B %-d, %Y" }}
+        </time>
+        <br>
+    {% endif %}
+{% endfor %}

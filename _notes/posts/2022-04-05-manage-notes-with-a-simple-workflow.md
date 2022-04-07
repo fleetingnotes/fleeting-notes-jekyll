@@ -18,7 +18,7 @@ One trap that people fall victim to is organizing notes with categories. We want
 
 ### Workflow #1 (Internet Browsing)
 1. I find an interesting quote or read an article (e.g. an article about remembering more things)
-2. I think of one idea and put it in its most generic form with [Fleeting Notes](/)
+2. I think of one idea and put it in its most generic form with [Fleeting Notes](https://fleetingnotes.app)
 3. If I’m feeling like I have a lot of time, I fill in some extra context about my idea and add links. Sometimes I can’t think of an idea so I just fill in a blurb of my thoughts in the content section.
 4. I create the note and link the source by clicking “Add Source URL” in my [chrome extension](https://chrome.google.com/webstore/detail/fleeting-notes/gcplhmogdjioeaenmehmapbdonklmdnc).
 5. My “fleeting notes” are automatically synced to [Obsidian](https://obsidian.md/) by following this [guide](https://www.thinkwong.com/how-to-sync-obsidian-with-fleeting-notes/)

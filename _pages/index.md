@@ -13,7 +13,7 @@ Fleeting Notes provides a quick platform to use a unique note organization metho
 - History of traversed notes
 - Export all notes in Markdown or JSON
 - Add sources to your notes
-- [Auto-sync with Obsidian](https://www.thinkwong.com/how-to-sync-obsidian-with-fleeting-notes/)
+- [[How to Sync Fleeting Notes with Obsidian]]
 
 ## What Now?
 - Join the [discord channel](https://discord.gg/xrj6yuGNmx)
